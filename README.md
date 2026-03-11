@@ -8,12 +8,14 @@ on the local system log file will be created in the project directory ./logs/api
 # IMPORTANT
 Add final name for jar/war file in pom.xml inside <build> section
 
-  <build>
-		<finalName>api-service</finalName>
+```
+<build>
+	<finalName>api-service</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
-  <build/>
+<build/>
+```
